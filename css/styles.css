@@ -16,7 +16,7 @@ p {
     font-size: 20px;
     color: white;
 }
-#hungry-color {
+#hungry-text-color {
     color: orange;
 }
 #mysidenav a {
@@ -62,6 +62,11 @@ p {
     padding-bottom: 150px;
     padding-top: 70px;
 }
+.menu-banner {
+    background-image: url(/images/bg/bg-circle.png);
+    background-repeat: no-repeat;
+    
+}
 .half-width {
     width: 60%;
     margin-top: 100px;
@@ -76,6 +81,9 @@ p {
     font-size: 20px;
     margin-top: 30px;
     display: inline-block;
+}
+.link-btn:hover {
+    opacity: 0.9;
 }
 .top-text-info {
     margin-top: 300px;
@@ -111,4 +119,37 @@ p {
     background-image: url(/images/bg/bg-shape-round.png);
     background-repeat: no-repeat;
 
+}
+.menu-text {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.flex {
+    display: flex;
+    padding: 80px;
+}
+.flex img {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.flex p {
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.flex h2 {
+    font-size: 30px;
+}
+.food-box {
+    background-color: white;
+    width: 33%;
+    padding: 10px;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: rgba(89, 119, 252, 0.5) 0px 14px 28px;
+}
+.flex-details {
+    margin-top: 30px;
 }
