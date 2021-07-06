@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #2B2C30;
+    background-color: #1e272e;
     overflow-x: hidden;
 }
 h1 {
@@ -51,10 +51,16 @@ p {
 }
 .flexible-container {
     display: flex;
+    margin-bottom: 300px;
     }
 .top-banner {
     background-image: url(/images/bg/bg.png);
     background-repeat: no-repeat;
+}
+.second-banner {
+    background-color:#2C3A47;
+    padding-bottom: 150px;
+    padding-top: 70px;
 }
 .half-width {
     width: 60%;
@@ -65,13 +71,13 @@ p {
     text-decoration: none;
     background-image: linear-gradient(orange,tomato);
     color: white;
-    border-radius: 5px;
+    border-radius: 25px;
     padding: 10px 20px 10px 20px;
     font-size: 20px;
     margin-top: 30px;
     display: inline-block;
 }
-.text-info {
+.top-text-info {
     margin-top: 300px;
 }
 .top-img {
@@ -85,6 +91,24 @@ p {
 }
 #top-right-banner {
     background-image: url(/images/bg//bg-circle.png);
+    background-repeat: no-repeat;
+
+}
+#second-img {
+    margin-top: 250px;
+}
+.second-text-info {
+    margin-right: 15%;
+    margin-top: 200px;
+    text-align: justify;
+}
+#second-left-banner {
+    background-image: url(/images/bg/bg-2.png);
+    background-repeat: no-repeat;
+
+}
+#second-right-banner {
+    background-image: url(/images/bg/bg-shape-round.png);
     background-repeat: no-repeat;
 
 }
