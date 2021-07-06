@@ -158,7 +158,7 @@ p {
     text-align: center;
     margin-top: 100px;
     background-image: url(../images/bg/bg-shape-line-yellow.png);
-    background-repeat: no-repeats;
+    background-repeat: no-repeat;
 }
 #frame {
     margin-top: 100px;
