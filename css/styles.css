@@ -58,7 +58,7 @@ p {
     background-repeat: no-repeat;
 }
 .second-banner {
-    background-color:#2C3A47;
+    background-image: url(../images/bg/bg-img-color.jpg);
     padding-bottom: 150px;
     padding-top: 70px;
 }
