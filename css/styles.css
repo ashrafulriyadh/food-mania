@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #2B2C30;
+    overflow-x: hidden;
+}
+h1 {
+    font-size: 50px;
+    color: white;
+}
+p {
+    font-size: 20px;
+    color: white;
+}
+#hungry-color {
+    color: orange;
+}
+#mysidenav a {
+    position: absolute;
+    right: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px 0 0 10px ; 
+}
+#mysidenav a:hover {
+    right: 0;
+}
+#home-nav {
+    top: 20px;
+    background-color: orangered;
+}
+#about-nav {
+    top: 90px;
+    background-color: cornflowerblue;
+}
+#services-nav {
+    top: 160px;
+    background-color: olive;
+}
+#contact-nav {
+    top: 230px;
+    background-color: blueviolet;
+}
+.flexible-container {
+    display: flex;
+}
+.half-width {
+    width: 60%;
+    margin-top: 100px;
+    padding-left: 15%;
+}
+.link-btn {
+    text-decoration: none;
+    background-image: linear-gradient(orange,tomato);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    display: inline-block;
+}
+.text-info {
+    margin-top: 300px;
+}
+#top-img {
+    margin: 130px 120px 0 0;
+}
